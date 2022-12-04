@@ -1,0 +1,61 @@
+#header{
+ width: 80%;
+ background-color: rgb(89, 0, 255);
+ border-radius: 20px;
+ text-align: center;
+ margin: 10px auto 10px auto ;
+ padding: 10px 0 10px 0 ;
+ font-family: cursive;
+ font-size: 50px;
+ font-weight: bolder;  
+}
+#bord{
+    width: 80%;
+    height: 80vh;
+    border-radius: 20px;
+    padding: 1% 0% 1% 0%;
+    background-color: rgb(89, 0, 255);
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+    
+}
+.box{
+    width: 32%;
+    height: 30%;
+    margin: 5px;   
+    border-radius: 10px;
+    background-color: rgb(32, 56, 136);
+    font-family: cursive;
+    font-size: 110px;
+    font-weight: bolder;   
+    /* align-self: center; */
+    
+
+}
+.box:hover{
+    background-color: rgba(38, 39, 61, 0.945);
+    color: beige;
+    
+}
+.win{
+    color: rgb(247, 247, 4);
+    background-color: blue;
+    
+}
+.winner_span{
+    color: rgb(247, 247, 4);
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bolder;  
+}
+.No_winner_span{
+    color: rgb(247, 4, 4);
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bolder; 
+}

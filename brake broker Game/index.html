@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <canvas id ="game_convase">
+
+    </canvas>
+    <audio  autoplay  id="breaks_sound" >
+        <source src="sound/breaks.wav" type="audio/wav">
+    </audio>
+    <audio autoplay   id="pange_sound" >
+        <source src="sound/pange.wav" type="audio/wav">
+    </audio>
+    <audio autoplay   id="gameover_sound" >
+        <source src="sound/gameover1.wav" type="audio/wav">
+    </audio>
+    <audio autoplay   id="button_action" >
+        <source src="sound/button.mp3" type="audio/mpeg">
+    </audio>
+    <div id="game_overdev">
+         <h1>Game Over</h1>
+        <button onclick="document.location.reload();" > Play Again</button>
+    </div>
+    <div id="game_start">
+        <h1>Start Game</h1>
+       <button onclick="startgame();" > Play Now</button>
+   </div>
+
+
+</body>
+<script src="main.js"></script>
+</html>
