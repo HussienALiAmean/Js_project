@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'husssine_ali';
+    src: url(fonts/DebugFreeTrial-MVdYB.otf);
+}
+*{
+    
+    font-family: husssine_ali;
+    font-size: 150px;
+    color: rgba(8, 8, 163, 0.726);
+    text-align: center;
+    margin: 0px;
+}
+
+.half{
+background-color: rgb(87, 45, 185);
+width: 40%;
+float: left;
+height: 350px;
+margin: 4%;
+margin-top: 10%;
+border: 5px solid rgb(87, 45, 185);
+border-radius: 30px;
+overflow: hidden;
+}
+.half:hover{
+    animation: change 2s;
+}
+@keyframes change {
+    0%{  transform: scale(1,1); border: 5px solid blue;}
+    50%{ transform: scale(1.1,1.1); border: 10px solid rgb(82, 82, 248);    }
+    100%{transform: scale(1,1); border: 5px solid blue;    }
+}
+
