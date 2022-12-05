@@ -1,0 +1,56 @@
+.navbar{
+    padding: 15px;
+    background-color: #009688;
+    position: relative;
+}
+.container{
+    width: 600px;
+    margin: 30px auto 0;
+    background-color: #f6f6f6; 
+    position: relative;
+}
+#addquestion{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border-radius:50% ;
+    font-size: 39px;
+    line-height: 45px;
+    right: 12px;
+    text-align: center;
+    background-color: #009688;
+    color:#f6f6f6 ;
+    transition: transform .4s;
+
+}
+
+#addquestion:hover{
+    transform: rotate(180deg);
+}
+
+.question_text{
+    width: 70%;
+    display: block;
+    margin: 10px 20px;
+}
+.answer_text{
+    width: 50%;
+    /* display: block; */
+    margin: 0px 20px;
+}
+.delete_question{
+    float: right;
+    margin-right: 20px;
+    background-color: red;
+    border-radius: 50%;
+    color: #f6f6f6;
+}
+.delet_choice{
+    float: right;
+    margin-right: 10px;
+    /* background-color: red; */
+    border-radius: 50%;
+    color: red;
+    /* padding: 5px; */
+}

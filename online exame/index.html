@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exam sheet</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="navbar">
+    </div>
+    <div class="container">
+        
+        <select name="" id="subject" onclick="choose_subject()" >
+            <!-- <option value="0">...</option> -->
+            <option value="js">js</option>
+            <option value="operating system">operating system</option>
+            <option value="client side">client side</option>
+        </select>
+
+        <input type="number" id="time" placeholder="timer by minutes">
+        <div id="addquestion" onclick="add_question()">+</div>
+        <div id="question_content">   </div>
+        <button onclick="save()" id="save_queations"> save</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

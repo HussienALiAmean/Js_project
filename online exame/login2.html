@@ -1,0 +1,108 @@
+<html> 
+
+	<head>
+		
+		<title>Mybook | Log in</title>
+	</head>
+
+	<style>
+		
+		#bar{
+			height:100px;
+			background-color: rgb(59,89,152);
+			color: #d9dfeb;
+			padding: 4px;
+		}
+
+		#signup_button{
+
+			background-color: #42b72a;
+			width: 70px;
+			color: white;
+			text-align: center;
+			padding:4px;
+			border-radius: 4px;
+			float:right;
+			position: relative;
+			top: 66%;
+    		padding: 8px;
+		}
+		#alert{
+			background-color: red;
+			color: white;
+			display: none;
+		}
+
+		#bar2{
+
+			background-color: white;
+			width:800px;
+			margin:auto;
+			margin-top: 50px;
+			padding:10px;
+			padding-top: 50px;
+			text-align: center;
+			font-weight: bold;
+
+		}
+
+		#text{
+
+			height: 40px;
+			width: 300px;
+			border-radius: 4px;
+			border:solid 1px #ccc;
+			padding: 4px;
+			font-size: 14px;
+		}
+
+		#button_login{
+
+			width: 300px;
+			height: 40px;
+			border-radius: 4px;
+			font-weight: bold;
+			border:none;
+			background-color: rgb(59,89,152);
+			color: white;
+		}
+
+	</style>
+
+	<body style="font-family: tahoma;background-color: #e9ebee;">
+		
+		<div id="bar">
+
+			<!-- <div style="font-size: 40px;">Mybook</div> -->
+			<a href="signup2.html">
+			<div id="signup_button">Signup</div>
+			</a>
+		</div>
+
+		<div id="bar2">
+			
+			<form method="get" id="form" >
+				<div id="alert" class="alert">enter correct email or password</div>
+				Log in to Exam<br><br>
+
+				<select name="" id="person" onclick="choose_role()">
+					<option value="Instructor">Instructor</option>
+					<option value="Student">Student</option>
+				</select> <br><br>
+				<!-- //<form action="questions.html" method="get"> -->
+				<input name="email"  type="text" id="email_student_login" placeholder="Your Name"><br><br>
+				
+				<input name="password"  type="password" id="pass_student_login" placeholder="Password"><br><br>
+				<input type="submit" id="submit_form" style="display: none;"  onclick="submit_name()">
+			</form>
+			<input type="submit" id="button_login" onclick="Login(),submit_name()"  value="Log in">
+				<br><br><br>
+			
+
+			<!-- </form> onclick="Login()" -->
+		</div>
+		<script src="storage.js"></script>
+	</body>
+
+
+</html>
